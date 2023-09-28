@@ -5,6 +5,16 @@ body {
     grid-template-rows: 1fr 3fr;
 }
 
+.icon {
+    width: 30px;
+    height: auto;
+}
+
+.dashboard.icon {
+    width: 60px;
+    height: auto;
+}
+
 .sidebar {
     grid-column: 1;
     grid-row: 1 / 3;
