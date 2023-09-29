@@ -1,4 +1,11 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
 body {
+    font-family: Roboto;
+
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -8,6 +15,7 @@ body {
 .icon {
     width: 30px;
     height: auto;
+    fill: white;
 }
 
 .dashboard.icon {
@@ -18,6 +26,7 @@ body {
 .sidebar {
     background-color: #B91C1C;
     padding: 0 24px;
+    color: white;
 
     grid-column: 1;
     grid-row: 1 / 3;
@@ -38,6 +47,13 @@ body {
     grid-template-columns: auto 1fr;
     gap: 12px;
     align-items: center;
+}
+
+.link-container div a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
 }
 
 .sidebar > h1, .sidebar > div {
