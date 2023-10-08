@@ -202,6 +202,8 @@ body {
 }
 
 .main-content {
+    background-color: #FEF2F2;
+    padding: 32px;
     height: 90vh;
 
     grid-column: 2;
