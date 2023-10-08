@@ -202,9 +202,10 @@ body {
 }
 
 .main-content {
+    height: 90vh;
+
     grid-column: 2;
     grid-row: 2;
-
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
