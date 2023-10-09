@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: min(200px, 13%) auto;
 }
 
 .icon {
@@ -82,9 +82,6 @@ body {
 }
 
 .header {
-    height: 30px;
-    width: auto;
-
     grid-column: 2;
     grid-row: 1;
     display: grid;
@@ -92,8 +89,7 @@ body {
 }
 
 .header-top {
-    padding: 20px;
-    padding-top: 12px;
+    padding: 12px 20px;
 
     grid-row: 1;
     display: grid;
@@ -204,13 +200,16 @@ body {
 .main-content {
     background-color: #FEF2F2;
     padding: 32px;
-    height: 90vh;
     box-shadow: inset 0 8px 10px -12px;
 
     grid-column: 2;
     grid-row: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+
+.main-content h1 {
+    /* font-weight: normal; */
 }
 
 .project-section {
