@@ -208,8 +208,12 @@ body {
     grid-template-columns: 2fr 1fr;
 }
 
-.main-content h1 {
-    /* font-weight: normal; */
+.main-content * {
+    font-weight: normal;
+}
+
+.main-content p {
+    filter: contrast(50%);
 }
 
 .project-section {
