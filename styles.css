@@ -227,6 +227,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.card-icons svg {
+    fill: black;
+}
+
 .announcement-trending-section {
     grid-column: 2;
     
