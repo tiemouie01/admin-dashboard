@@ -220,9 +220,24 @@ body {
 .project-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+    gap: 20px;
+}
+
+.project-cards > div {
+    height: 250px;
+    padding: 16px;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+.project-cards h3, .project-cards p {
+    margin: 0;
+    padding: 0;
 }
 
 .card-icons {
+    align-self: end;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
