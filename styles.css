@@ -8,7 +8,7 @@ body {
 
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: min(200px, 13%) auto;
 }
 
@@ -206,7 +206,7 @@ body {
     grid-column: 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     column-gap: 12px;
 }
 
@@ -220,7 +220,7 @@ body {
 
 .project-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+    grid-template-columns: repeat(auto-fit, minmax(150px,350px));
     gap: 12px;
 }
 
