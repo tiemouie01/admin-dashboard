@@ -226,7 +226,7 @@ body {
 
 .project-cards > div {
     height: 200px;
-    padding: 16px;
+    padding: 24px;
     background-color: #FFFFFF;
     border-left: 10px solid #EF4444;
     border-radius: 10px;
@@ -243,8 +243,11 @@ body {
 
 .card-icons {
     align-self: end;
+    justify-self: end;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
 }
 
 .card-icons svg {
