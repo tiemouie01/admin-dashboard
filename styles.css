@@ -269,8 +269,12 @@ body {
     grid-row: 1;
 }
 
-.announcment-container > div {
-    padding: 52px;
+.announcement-container > div {
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 8px -4px;
+
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -289,7 +293,6 @@ body {
     margin-top: 6px;
     margin-bottom: 16px;
 }
-
 
 .trending-container {
     grid-row: 2;
