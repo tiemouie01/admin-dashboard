@@ -270,18 +270,33 @@ body {
 }
 
 .announcement-container > div {
-    padding: 32px;
+    padding: 24px;
     border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 1px 1px 8px -4px;
 
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    /* gap: 2px; */
+}
+
+.announcement-container > div > div {
+    border: 1px solid black;
 }
 
 .announcement-container h4, .announcement-container p {
     margin: 0;
     padding: 0;
+}
+
+.announcement-two, .announcement-three {
+    /* padding-top: 12px; */
+    /* margin-bottom: 6px;
+    padding-bottom: 6px; */
+}
+
+.announcement-two {
+    margin-top: 32px;
 }
 
 .announcement-contaner h4 {
@@ -290,8 +305,6 @@ body {
 
 .announcement-container p {
     font-size: 12px;
-    margin-top: 6px;
-    margin-bottom: 16px;
 }
 
 .trending-container {
